@@ -17,3 +17,6 @@ Analytics/AQS/Pageviews: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pagev
 The uploaded files are zipped, to use unzip on the same level as the script.
 
 For file creation, the retrieved data was nested under a "items" dictionary. In creating my files, I removed this layer of the dictionary.
+
+## Known Problems
+The file creation script takes a while to execute because there is a set delay for each article request. Creating all three files takes about 15 minutes.
